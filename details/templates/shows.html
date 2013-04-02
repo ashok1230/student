@@ -1,0 +1,44 @@
+<html>
+<head>
+
+<title>{{s.student_name}} details</title>
+<style>
+p{
+font-size:18px;
+margin:25px;
+color:green;
+}
+pp
+{
+font-size:18px;
+margin:5px;
+}
+</style>
+</head>
+<body bgcolor='cyan'>
+
+<p><u>{{s.student_name}} Details</u><br></p>
+<table align='left' border ='1'>
+<tr><td>Student 
+Name:</td><td align='center'>{{s.student_name}}
+</td></tr>
+
+<tr><td>Standard:</td><td align='center'>{{s.student_class}}</td></tr>
+
+<tr><td>Main Subject:</td><td align='center'>{{s.main_sub}}
+</td></tr>
+<tr><td>Identity number:</td><td align='center'>{{s.student_Id}}
+</td></tr>
+<tr><td>Marks:</td><td align='center'>{{s.marks}}
+</td></tr>
+<tr><td>Average marks:</td><td align='center'>{{s.Average_marks}}
+</td></tr>
+</table>
+<br><br><br><br><br><br><br><br>
+<pp><a href='/adds/'>Add student</a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href='/'>students</a>
+
+</pp></body>
+</html>
+

@@ -1,0 +1,11 @@
+git clone https://github.com/ashok1230/student.git
+git init
+git checkout branch
+git branch new
+git branch
+git checkout new
+git branch
+git add .
+git push origin new
+git commit
+git push origin new
